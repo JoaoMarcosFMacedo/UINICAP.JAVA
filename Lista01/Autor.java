@@ -9,13 +9,13 @@ public class Autor {
 
         this.nome = nome;
         this.nacio = nacio;
+        
     }
     @Override
     public String toString(){
 
         return "Nome {" + nome +" }\nNacionalidade {" + nacio +"}";
         
-     
     }
     public void sys(){
         System.out.println(this);

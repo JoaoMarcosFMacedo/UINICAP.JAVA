@@ -17,7 +17,7 @@ public class MainLista {
         System.out.printf("\n ---------- Filme 01 ---------- \nTítlo - %s \nGênero - %S \nAno de Lançamento - %d",f1.titulo, f1.genero, f1.anoLancamento );
         System.out.printf("\n\n ---------- Filme 02 ---------- \nTítlo - %s \nGênero - %S \nAno de Lançamento - %d",f2.titulo, f2.genero, f2.anoLancamento );
         
-        System.out.println("\n\n=================================================\n\n");
+        System.out.println("\n\n=================\n\n");
         
         // au.sys();
         
@@ -25,9 +25,10 @@ public class MainLista {
         
         lr.sys();
         
-        System.out.println("\n\n=================================================\n\n");
+        System.out.println("\n\n=================\n\n");
 
         lr2.sys();
+        
     }
     
 }
