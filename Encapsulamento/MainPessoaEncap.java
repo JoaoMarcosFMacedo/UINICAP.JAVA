@@ -11,7 +11,7 @@ public class MainPessoaEncap{
 
         System.out.printf("\n Meu nome é { %s } \nSua idade é { %d } ", p.getNome(), p.getIdade());
 
-        for(int i = 0 ; i < 3; i +=1){
+        for(int i = 0 ; i < TAM; i +=1){
 
             System.out.printf("\n Nome %d : ", i);
             String n = scan.nextLine();
@@ -24,23 +24,24 @@ public class MainPessoaEncap{
 
             p2[i] = new Pessoa(n, idade);
 
+            
         }
+        printPessoa(p2, TAM);
 
-        public void PrintPessoa(int TAm){
-            for(int i = 0; i < TAM ; i+= 1){
+        // System.out.printf("\nIdade da pessoa 2 { %d } e o nome { %s }",p2[0].getIdade(), p2[0].getNome());
+        // System.out.printf("\nIdade da pessoa 2 { %d } e o nome { %s }",p2[2].getIdade(), p2[2].getNome());
+        // System.out.printf("\nIdade da pessoa 2 { %d } e o nome { %s }",p2[1].getIdade(), p2[1].getNome());
+                
+    }
 
-                System.out.printf("====Pessoa %d====",i);
+    public static void printPessoa(Pessoa[] p, int tam){
 
+        for(int i = 0; i < tam ; i+= 1){
 
+            System.out.printf("\n====Pessoa %d====",i);
 
-            }
+            System.out.printf("\n Nome: %s \nidade: %d",p[i].getNome(), p[1].getIdade());
+            
         }
-        System.out.printf("\nIdade da pessoa 2 { %d } e o nome { %s }",p2[0].getIdade(), p2[0].getNome());
-        System.out.printf("\nIdade da pessoa 2 { %d } e o nome { %s }",p2[2].getIdade(), p2[2].getNome());
-        System.out.printf("\nIdade da pessoa 2 { %d } e o nome { %s }",p2[1].getIdade(), p2[1].getNome());
-
-        
-
-
     }
 }
