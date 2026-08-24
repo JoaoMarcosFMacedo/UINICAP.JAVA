@@ -11,6 +11,5 @@ public class Filme {
         this.genero = genero;
         this.anoLancamento = anoLancamento;
 
-
     }
 }
