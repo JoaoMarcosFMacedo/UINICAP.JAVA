@@ -4,10 +4,10 @@ public class Pessoa{
     String cpf;
     int dist;
 
-    Pessoa(int idade, String nome, String cpf, int dist){
+    Pessoa(String nome,int idade, String cpf, int dist){
 
-        this.idade = idade;
         this.nome = nome;
+        this.idade = idade;
         this.cpf = cpf;
         this.dist = dist;
 
