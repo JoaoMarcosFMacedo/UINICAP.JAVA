@@ -1,5 +1,5 @@
 
-public class Cliente {
+public class Cliente2 {
 
     String nome;
     String rg;
@@ -8,7 +8,7 @@ public class Cliente {
     Endereco endereco;
     Telefone telefone;
 
-    Cliente(String nome, String rg, String cpf, Data data, Endereco endereco, Telefone telefone){
+    Cliente2(String nome, String rg, String cpf, Data data, Endereco endereco, Telefone telefone){
 
         this.nome = nome;
         this.rg = rg;

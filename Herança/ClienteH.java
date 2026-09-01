@@ -1,11 +1,11 @@
 
-public class Cliente{
+public class ClienteH{
 
     private String nome;
     private String endereco;
 
 
-    public Cliente(String nome, String endereco){
+    public ClienteH(String nome, String endereco){
         
         this.nome = nome;
         this.endereco = endereco;

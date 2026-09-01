@@ -12,13 +12,7 @@ public class Pessoa{
         this.dist = dist;
 
     }
-    Pessoa(int i, String n, String c){
-
-        idade = i;
-        nome = n;
-        cpf = c;
-        dist = 0;
-    }
+   
 
     void andar( int d){
         dist = dist + d;
