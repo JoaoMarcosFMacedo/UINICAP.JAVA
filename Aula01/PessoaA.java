@@ -1,10 +1,10 @@
-public class Pessoa{
+public class PessoaA{
     int idade;
     String nome;
     String cpf;
     int dist;
 
-    Pessoa(String nome,int idade, String cpf, int dist){
+    PessoaA(String nome,int idade, String cpf, int dist){
 
         this.nome = nome;
         this.idade = idade;
@@ -14,15 +14,13 @@ public class Pessoa{
     }
    
 
-    void andar( int d){
-        dist = dist + d;
-        System.out.printf("andou %d km", dist);
-        
+    public int Andar(){
+        return dist * 2;  
     }
-    void dormiu(){
+    public void Dormiu(){
         System.out.printf("\n dormiu");
     }
-    void aniver(){
+    public void aniver(){
         idade = idade + 1;
     }
 }

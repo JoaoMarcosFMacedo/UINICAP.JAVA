@@ -9,12 +9,13 @@ public class GerenteF extends Funcionario {
         super(nome, cpf, salario);
         
         this.departamento = departamento;
+
     }
     public void setDepartamentoGerent(String departamento){
         this.departamento = departamento;
     }
     public String getDepartamentoGerent(){
-        return "Departamento: " + this.departamento + "\n";
+        return "\nDepartamento: " + departamento ;
     }
     @Override
     public String toString(){

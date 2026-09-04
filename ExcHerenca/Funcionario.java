@@ -17,21 +17,21 @@ public class Funcionario {
         this.nome = nome;
     }
     public String getNomeFunc(){
-        return "Nome: "+ this.nome + "\n";
+        return "Nome: "+ nome + "\n";
     }
 
     public void setCpfFunc(String cpf){
         this.cpf = cpf;
     }
     public String getCpfFunc(){
-        return "CPF: " + this.cpf + "\n";
+        return "CPF: " + cpf + "\n";
     }
 
     public void setSalarioFunc(Double salario){
         this.salario = salario;
     }
     public Double getSalarioFunc(){
-        return this.salario; 
+        return salario; 
     }
 
     @Override

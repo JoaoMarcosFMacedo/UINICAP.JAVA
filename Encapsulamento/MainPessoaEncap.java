@@ -5,8 +5,8 @@ public class MainPessoaEncap{
     public static Scanner scan = new Scanner(System.in);
     public static final int TAM = 5;
     public static void main(String []args){
-        Pessoa p = new Pessoa("Marcos", 21);
-        Pessoa p2[] = new Pessoa[TAM];
+        PessoaA p = new Pessoa("Marcos", 21);
+        PessoaA p2[] = new PessoaA[TAM];
         
 
         System.out.printf("\n Meu nome é { %s } \nSua idade é { %d } ", p.getNome(), p.getIdade());
@@ -22,9 +22,9 @@ public class MainPessoaEncap{
 
             scan.nextLine();
 
-            p2[i] = new Pessoa(n, idade);
+            p2[i] = new PessoaA(n, idade);
 
-            
+                        
         }
         printPessoa(p2, TAM);
 
@@ -34,7 +34,7 @@ public class MainPessoaEncap{
                 
     }
 
-    public static void printPessoa(Pessoa[] p, int tam){
+    public static void printPessoa(PessoaA[] p, int tam){
 
         for(int i = 0; i < tam ; i+= 1){
 
