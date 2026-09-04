@@ -14,11 +14,10 @@ public class GerenteF extends Funcionario {
         this.departamento = departamento;
     }
     public String getDepartamentoGerent(){
-        return this.departamento;
+        return "Departamento: " + this.departamento + "\n";
     }
     @Override
     public String toString(){
-        return super.toString() + "\n" +
-        "Departamento [ " + getDepartamentoGerent() + " ]\n";
+        return super.toString() + getDepartamentoGerent(); 
     }
 }
