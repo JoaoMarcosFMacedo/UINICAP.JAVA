@@ -1,9 +1,9 @@
-public class Pessoa{
+public class PessoaEn{
 
     private String nome;
     private int idade;   
 
-    Pessoa(String nome, int idade){
+    PessoaEn(String nome, int idade){
 
         this.nome = nome;
         this.idade = idade;
