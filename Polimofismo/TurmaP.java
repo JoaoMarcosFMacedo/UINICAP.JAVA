@@ -18,5 +18,7 @@ public class TurmaP {
     public String getNomeTurma(){
         return nomeTurma;
     }
-    
+    public void addIntegrante(PessoaP integrante){
+        this.integrantes.add(integrante);
+    }
 }
